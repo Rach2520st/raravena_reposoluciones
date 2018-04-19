@@ -1,0 +1,141 @@
+Universidad de Talca
+Facultad de Ingeniería, Ingeniería civil en Bioinformática
+Aravena Martínez Rachell Scarlett
+Profesor Fabio Torres
+Soluciones Algorítmicas de problemas
+
+Guía 1- Unidad 1
+Algoritmos secuenciales- Lenguaje C
+Algoritmos narrados:
+
+1.- dada la matrícula y 3 calificaciones de un alumno obtenido a lo largo del
+semestre, imprima la matricula del alumno y el promedio de sus calificaciones. Las
+calificaciones deben ser ingresadas por el usuario
+Algoritmo narrado:
+1. Ingresar número de matrícula:
+2. Ingresar las tres calificaciones, una por una:
+3. Se calcula el promedio sumando las notas y dividiéndola por la cantidad de
+estas, en este caso son 3.
+4. Se muestra la matrícula del alumno ingresada anteriormente.
+5. Se entrega el resultado del promedio de las tres notas según el cálculo
+realizado en el paso n°3.
+6. Fin.
+
+2._ calcular e imprimir el cuadrado y el cubo de un número entero positivo
+Algoritmo narrado:
+1. Ingresar un número entero positivo.
+2. Se calcula el cuadrado del número ingresado multiplicándolo dos veces por
+sí mismo(n°*n°)
+3. Se muestra el resultado del cálculo anterior (paso 2).
+4. Se calcula el cubo del número ingresado multiplicándolo tres veces por sí
+mismo(n°*n°*n°).
+5. Se muestra el resultado del cálculo anterior (paso 4).
+6. Fin.
+
+3._ se requiere determinar la hipotenusa de un triángulo rectángulo.Algoritmo narrado:
+1. Ingresar la medida del lado a del triángulo rectángulo.
+2. Ingresar la medida del lado b del triángulo rectángulo.
+3. Sumar los dos lados del cuadrado al cuadrado. ((lado a*lado a) + (lado b*
+lado b))
+4. Calcular la raíz de la suma de los lados al cuadrado (resultado del paso 3)
+5. Entregar el valor de la hipotenusa (resultado paso 4).
+6. Fin.
+
+4._Dados como datos la base y altura de un rectángulo, calcule el perímetro y la
+superficie del mismo
+Algoritmo narrado:
+1.-Ingrese la medida de la base del rectángulo
+2._Ingrese la medida de la altura del rectángulo
+3._multiplicar la suma de la base y la altura del rectángulo (2*(base + altura))
+4._Mostrar resultado de la operación propuesta en el paso 3 como el perímetro
+del rectángulo.
+5. Multiplicar la base y la altura del rectángulo (base*altura)
+6. Mostrar resultado de la operación realizada en el paso 5 como superficie del
+rectángulo.
+7. Fin
+
+5._Dados como datos el nombre de un dinosaurio, su peso y su longitud,
+expresados estos dos últimos en libras y pies respectivamente, escriba el nombre
+del dinosaurio, su peso expresado en kilogramos y su longitud expresada en metros.
+Considere:
+1 libra= 0.45 kilogramos
+1 pie= 0.3048
+Algoritmo narrado:
+
+1. Ingrese nombre del dinosaurio
+2. Ingrese peso del dinosaurio expresado en libras
+3. Ingrese la longitud del dinosaurio expresada en pies
+4. Calcular peso de dinosaurio en kilogramos multiplicando su peso en libras
+por 0.45 (peso en libras* 0.45 kg)
+5. Calcular la longitud del dinosaurio multiplicando su longitud en pies por
+0.3048 (longitud en pies* 0.3048 mts)
+6. Mostrar nombre del dinosaurio
+7. Mostrar el peso del dinosaurio en kilogramos según el resultado que nos
+entregue el paso 48. Mostrar la longitud del dinosaurio en metros según el resultado que nos
+brinda el paso 5
+9. Fin.
+
+6._En una gasolinera tienen el siguiente problema. Los surtidores de la misma
+registran lo que surten en galones, pero el precio de la gasolina está fijada en litros.
+Calcular e imprimir lo que hay que cobrarle al cliente. Considere:
+Cada galón tiene 3.785 litros
+El precio por litro es de $820
+Algoritmo narrado:
+1. Ingresar cuantos galones de gasolina desea comprar el cliente
+2. Calcular los litros que quiere el cliente multiplicando el número de galones
+que desea por 3.785 que es lo que contiene cada galón (número de galones*
+3.785 litros )
+3. Según el resultado entregado en el paso 2 que serán los litros, se obtendrá
+el valor de la compra multiplicando los litros por el precio por litro que es $820
+(litros * $820)
+4. Entregar el valor de la compra al cliente que es el resultado del paso 3
+5. Fin.
+
+7._ dado un determinado número de días, calcule e imprima el número de segundos
+correspondientes
+1. Ingresar el número de días para ver cuantos segundos tiene
+2. Calcular el número de horas que tienen esos días multiplicando por 24 que
+son las horas que tiene un día (n° de horas*24)
+3. Calcular el número de minutos que tienen los horas de esos días según el
+resultado del paso 2 multiplicando el número de horas por 60 (n° de horas*60)
+4. Calcular el número de segundos que tienen los minutos de esos días según
+el resultados del paso 3 multiplicando el número de minutos por 60 (n° de
+minutos*60)
+5. Mostrar el número de segundos que contienen los días según el resultado
+que nos entrega el paso 4
+6. Fin.
+
+8._ Se requiere un algoritmo que permita evaluar el siguiente polinomio en distintos
+valores de x
+P(x)= x^3+2x^2+3x+5
+Algoritmo narrado:
+1. Dar un valor cualquiera a X2. Calcular el valor de la ecuación reemplazando la x por el valor asignado en
+cada una de las x en la ecuación: x^3+2x^2+3x+5
+3. Entregar el valor de la ecuación realizada en el paso dos
+4. Fin.
+
+9._ Un vendedor recibe un sueldo base mensual más un porcentaje extra como
+comisión de sus ventas. El porcentaje a esta semana corresponde al 7% de las
+ventas realizadas por el vendedor. Indique cuánto dinero recibe en total al final del
+mes y cuanto corresponde a la comisión.
+Algoritmo narrado:
+1. Ingrese el sueldo base del trabajador
+2. Ingrese el valor de las ventas realizadas al mes
+3. Calcular la comisión multiplicando el valor de las ventas realizadas por el 7%
+(valor de las venta *0.07)
+4. Mostrar la comisión que recibirá el empleado
+5. Calcular el sueldo final sumando el sueldo base más la comisión que es el
+resultado del paso 3 (comisión + sueldo base)
+6. Mostrar el sueldo final entregando el resultado de la operación realizada en
+el paso n° 5
+7. Fin.
+
+10._la compañía de autobuses “camino al cielo” requiere determinar el costo que
+tendrá el boleto de un viaje sencillo, esto basado en los kilómetros por recorrer y en
+el costo por kilómetro.
+Algoritmo narrado:
+1. Ingresar el número de kilómetros del recorrido
+2. Calcular el costo del viaje multiplicando el número de kilómetros del recorrido
+por el valor por kilómetro (n° de km del recorrido*valor por kilómetro)
+3. Entregar el valor del viaje según el resultado del paso 2 al cliente
+4. Fin.
